@@ -140,4 +140,76 @@ func makeTriangle(_ sides: [Int]) -> Int {
 makeTriangle([1, 2, 3])
 makeTriangle([3, 6, 2])
 makeTriangle([199, 72, 222])
+
+//
+//문제 설명
+//문자열 my_string과 정수 n이 매개변수로 주어질 때, my_string에 들어있는 각 문자를 n만큼 반복한 문자열을 return 하도록 solution 함수를 완성해보세요.
+func repeatedStringPrint(_ my_string: String, _ n: Int) -> String {
+    var result: String = ""
+    for eachStr in my_string {
+        for _ in 1...n{
+            result.append(eachStr)
+        }
+    }
+    
+    return result
+}
+
+print(repeatedStringPrint("hello", 3))
+
+//문제 설명
+//정수가 담긴 배열 array와 정수 n이 매개변수로 주어질 때, array에 n이 몇 개 있는 지를 return 하도록 solution 함수를 완성해보세요.
+func checkStringInArr(_ array:[Int], _ n: Int) -> Int {
+    var cnt: Int = 0
+    for num in array {
+        if(num == n){
+            cnt += 1
+        }
+    }
+    
+    return cnt
+}
+
+// 문자열 my_string과 문자 letter이 매개변수로 주어집니다. my_string에서 letter를 제거한 문자열을 return하도록 solution 함수를 완성해주세요.
+
+func eliminateLetter(_ my_string: String, _ letter: String) -> String {
+    return my_string.filter{ String($0) != letter }
+}
+
+func eliminateLetter2(_ my_string:String, _ letter:String) -> String {
+    var result = ""
+    for s in my_string where String(s) != letter {
+        result.append(s)
+    }
+    return result
+}
+
+func eliminateLetter3(_ my_string:String, _ letter:String) -> String {
+    return my_string.replacingOccurrences(of: letter, with: "")
+}
+
+eliminateLetter("BCBdbe", "B")
+
+// 문제 설명
+//머쓱이네 피자가게는 피자를 두 조각에서 열 조각까지 원하는 조각 수로 잘라줍니다.
+//피자 조각 수 slice와 피자를 먹는 사람의 수 n이 매개변수로 주어질 때,
+//n명의 사람이 최소 한 조각 이상 피자를 먹으려면 최소 몇 판의 피자를 시켜야 하는지를
+//return 하도록 solution 함수를 완성해보세요.
+
+print("-------------")
+func pizzaSlice(_ slice: Int, _ n: Int) -> Int {
+    return Int(ceil(Double(n)/(Double(slice))))
+}
+pizzaSlice(7, 10)
+pizzaSlice(4, 12)
+
+//문제 설명
+//머쓱이는 할머니께 생신 축하 편지를 쓰려고 합니다.
+//할머니가 보시기 편하도록 글자 한 자 한 자를 가로 2cm 크기로 적으려고 하며, 편지를 가로로만 적을 때,
+//축하 문구 message를 적기 위해 필요한 편지지의 최소 가로길이를 return 하도록 solution 함수를 완성해주세요.
+
+func findminX(_ message: String) -> Int {
+    return message.count * 2
+}
+
 //: [Next](@next)
