@@ -3,5 +3,7 @@
     <pages>
         <page name='Arithmetic'/>
         <page name='Array'/>
+        <page name='Probability'/>
+        <page name='String'/>
     </pages>
 </playground>
