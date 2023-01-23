@@ -5,5 +5,7 @@
         <page name='Array'/>
         <page name='Probability'/>
         <page name='String'/>
+        <page name='Index'/>
+        <page name='Index2'/>
     </pages>
 </playground>

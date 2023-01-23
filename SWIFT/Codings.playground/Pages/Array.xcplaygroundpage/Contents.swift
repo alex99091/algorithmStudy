@@ -176,7 +176,7 @@ func eliminateLetter(_ my_string: String, _ letter: String) -> String {
     return my_string.filter{ String($0) != letter }
 }
 
-func eliminateLetter2(_ my_string:String, _ letter:String) -> String {
+func eliminateLetter2(_ my_string:String, _ letter: String) -> String {
     var result = ""
     for s in my_string where String(s) != letter {
         result.append(s)
