@@ -99,3 +99,71 @@ func translateMorse2(_ letter: String) -> String {
 translateMorse(".... . .-.. .-.. ---")
 translateMorse2(".--. -.-- - .... --- -.")
 //: [Next](@next)
+//
+//문자열 my_string이 매개변수로 주어집니다.
+//my_string에서 중복된 문자를 제거하고 하나의 문자만 남긴 문자열을 return하도록 solution 함수를 완성해주세요.
+
+func solution(_ my_string: String) -> String {
+    var answer: String = ""
+    for i in my_string {
+        if answer.contains(i) == false {
+            answer.append(String(i))
+        }
+    }
+    return answer
+}
+
+//i팩토리얼 (i!)은 1부터 i까지 정수의 곱을 의미합니다.
+//예를들어 5! = 5 * 4 * 3 * 2 * 1 = 120 입니다.
+//정수 n이 주어질 때 다음 조건을 만족하는 가장 큰 정수 i를 return 하도록 solution 함수를 완성해주세요.
+
+func findLessthanFactorial(_ n: Int) -> Int {
+    func factorial(_ num:Int) -> Int {
+        if num < 2 { return num }
+        return factorial( num - 1 ) * num
+    }
+    var result = 0
+    while factorial( result ) <= n {
+        result += 1
+    }
+    return result - 1
+}
+
+findLessthanFactorial(7)
+
+//정수 배열 num_list와 정수 n이 매개변수로 주어집니다.
+//num_list를 다음 설명과 같이 2차원 배열로 바꿔 return하도록 solution 함수를 완성해주세요.
+//
+//num_list가 [1, 2, 3, 4, 5, 6, 7, 8] 로 길이가 8이고 n이 2이므로
+//num_list를 2 * 4 배열로 다음과 같이 변경합니다. 2차원으로 바꿀 때에는 num_list의
+//원소들을 앞에서부터 n개씩 나눠 2차원 배열로 변경합니다.
+
+func getSecondDimension(_ num_list:[Int], _ n:Int) -> [[Int]] {
+    var list: [[Int]] = []
+    
+    for i in 0..<num_list.count / n {
+        list.append(Array(num_list[i*n..<i*n+n]))
+    }
+    
+    return list
+}
+
+//1부터 13까지의 수에서, 1은 1, 10, 11, 12, 13 이렇게 총 6번 등장합니다.
+//정수 i, j, k가 매개변수로 주어질 때, i부터 j까지 k가 몇 번 등장하는지 return 하도록 solution 함수를 완성해주세요.
+
+func findNumCnt(_ i: Int, _ j: Int, _ k: Int) -> Int {
+    var count: Int = 0
+    for n in i...j {
+        count += String(n).filter { $0 == Character(String(k)) }.count
+    }
+    return count
+}
+findNumCnt(1, 13, 6)
+
+func findNumCnt2(_ i: Int, _ j: Int, _ k: Int) -> Int {
+    return
+    (i...j).map {
+        String($0).filter { String($0) == String(k) }.count
+    }.reduce(0, +)
+}
+findNumCnt(1, 13, 6)

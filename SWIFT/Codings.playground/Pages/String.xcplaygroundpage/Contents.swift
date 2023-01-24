@@ -212,3 +212,19 @@ func findNumAndSortinString2(_ my_string: String) -> [Int] {
     return my_string.filter { $0.isNumber }.map{ Int(String($0))! }.sorted()
 }
 findNumAndSortinString("hi12392")
+
+//문자열 before와 after가 매개변수로 주어질 때,
+//before의 순서를 바꾸어 after를 만들 수 있으면 1을, 만들 수 없으면 0을
+//return 하도록 solution 함수를 완성해보세요.
+
+func revertPossible(_ before: String, _ after: String) -> Int {
+    var array = ArraySlice(String(before))
+    var change: String = ""
+    for _ in array {
+        change.append(array.removeLast())
+        print(change)
+    }
+    return change == after ? 1 : 0
+}
+revertPossible("olleh", "hello")
+revertPossible("5 7hi hello", "ohoh")

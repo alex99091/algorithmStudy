@@ -99,5 +99,61 @@ func addEachNum2(_ n: Int) -> Int {
     return array.reduce(0) { Int(String($0))! + Int(String($1))!}
 }
 
+//머쓱이는 구슬을 친구들에게 나누어주려고 합니다.
+//구슬은 모두 다르게 생겼습니다.
+//머쓱이가 갖고 있는 구슬의 개수 balls와 친구들에게 나누어 줄 구슬 개수 share이 매개변수로 주어질 때,
+//balls개의 구슬 중 share개의 구슬을 고르는 가능한 모든 경우의 수를 return 하는 solution 함수를 완성해주세요.
+
+func findprob(_ balls: Int, _ share: Int) -> Int {
+    func factorial(_ n: Int) -> Int {
+        var result = 1
+        for i in 1...n {
+            result *= i
+        }
+        return result
+    }
+    let numer = factorial(balls)
+    let denom = factorial(balls - share) * factorial(share)
+    
+    return denom != 0 && balls > share ? numer / denom : 1
+}
+
+func findprob2(_ balls: Int, _ share: Int) -> Int {
+    func dfs(_ n : Int, _ r: Int) -> Int {
+        if n == r { return 1 }
+        
+        if r == 1 { return n }
+        
+        return dfs(n-1, r-1) + dfs(n-1, r)
+    }
+    return dfs(balls, share)
+}
+
+//정수 배열 emergency가 매개변수로 주어질 때
+//응급도가 높은 순서대로 진료 순서를 정한 배열을 return하도록 solution 함수를 완성해주세요.
+
+func findPriority(_ emergency:[Int]) -> [Int] {
+    let arr = emergency.sorted(by: >)
+    print(arr)
+    var answer: [Int] = []
+    for i in 0...(emergency.count - 1){
+        print("i: \(emergency[i]) arr[i]: \(arr.firstIndex(of: emergency[i])!)")
+        answer.append( Int( arr.firstIndex(of: emergency[i])! ) + 1)
+    }
+    return answer
+}
+
+func findPriority2(_ emergency:[Int]) -> [Int] {
+    var answer: [Int] = []
+    
+    for tmp in emergency {
+        answer.append(emergency.filter { $0 > tmp }.count + 1)
+    }
+    
+    return answer
+}
+
+//findPriority([1, 2, 3, 4, 5, 6, 7])
+findPriority([10, 76, 24])
 
 //: [Next](@next)
