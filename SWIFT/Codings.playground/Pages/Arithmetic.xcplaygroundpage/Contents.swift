@@ -125,15 +125,15 @@ bills(64,6)
 
 func pizza1 (_ n: Int) -> Int {
     if n <= 7 {
-            return 1
-        } else if n % 7 == 0 {
-            return n / 7
-        } else {
-            return n / 7 + 1
-        }
+        return 1
+    } else if n % 7 == 0 {
+        return n / 7
+    } else {
+        return n / 7 + 1
+    }
 }
 func pizza2(_ n: Int) -> Int { n / 7 + (n % 7 > 0 ? 1 : 0) }
-    
+
 //머쓱이는 추운 날에도 아이스 아메리카노만 마십니다.
 //아이스 아메리카노는 한잔에 5,500원입니다.
 //머쓱이가 가지고 있는 돈 money가 매개변수로 주어질 때,
@@ -154,4 +154,57 @@ func checkSquaredDouble(_ n: Int) -> Int {
 //checkSquaredDouble(144)
 checkSquaredDouble(976)
 
+//소인수분해란 어떤 수를 소수들의 곱으로 표현하는 것입니다. 예를 들어 12를 소인수 분해하면 2 * 2 * 3 으로 나타낼 수 있습니다. 따라서 12의 소인수는 2와 3입니다. 자연수 n이 매개변수로 주어질 때 n의 소인수를 오름차순으로 담은 배열을 return하도록 solution 함수를 완성해주세요.
+
+func findPrimeFactors(_ n: Int) -> [Int] {
+    // 소수인지 아닌지 확인하는 함수
+    func isPrime(_ n: Int) -> Bool {
+        if n < 4 {
+            return n == 1 ? false : true
+        }
+        for i in 2...Int(sqrt(Double(n))) {
+            if n % i == 0 { return false }
+        }
+        return true
+    }
+    
+    var answer: [Int] = []
+    for i in 2...Int(trunc(sqrt((Double(n))))) {
+        if n % i == 0 && isPrime(i) {
+            answer.append(i)
+        }
+    }
+    if answer.isEmpty {
+        answer.append(n)
+    }
+    return answer
+}
+print("version.2")
+func findPrimeFactors2(_ n: Int) -> [Int] {
+    var num = n
+    var answer: [Int] = []
+    for i in stride(from: 2, through: num, by: 1) {
+        while num % i == 0 {
+            print("num: \(num), i: \(i)")
+            if !answer.contains(i){
+                answer.append(i)
+            }
+            num = num / i
+        }
+    }
+    return answer
+}
+print(findPrimeFactors2(17))
+print(findPrimeFactors2(420))
+
+// 선분 세 개로 삼각형을 만들기 위해서는 다음과 같은 조건을 만족해야 합니다.
+//
+// 가장 긴 변의 길이는 다른 두 변의 길이의 합보다 작아야 합니다.
+// 삼각형의 두 변의 길이가 담긴 배열 sides이 매개변수로 주어집니다. 나머지 한 변이 될 수 있는 정수의 개수를 return하도록 solution 함수를 완성해주세요.
+
+func triangleCondition(_ sides:[Int]) -> Int {
+    let elements = sides.sorted()
+    
+    return (elements[1] - elements[0] + 1...elements[1]).count + (elements[1]..<elements[0] + elements[1]).count - 1
+}
 

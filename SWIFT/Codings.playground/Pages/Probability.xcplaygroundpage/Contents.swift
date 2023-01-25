@@ -156,4 +156,23 @@ func findPriority2(_ emergency:[Int]) -> [Int] {
 //findPriority([1, 2, 3, 4, 5, 6, 7])
 findPriority([10, 76, 24])
 
+// 머쓱이는 친구들과 동그랗게 서서 공 던지기 게임을 하고 있습니다. 공은 1번부터 던지며 오른쪽으로 한 명을 건너뛰고 그다음 사람에게만 던질 수 있습니다. 친구들의 번호가 들어있는 정수 배열 numbers와 정수 K가 주어질 때, k번째로 공을 던지는 사람의 번호는 무엇인지 return 하도록 solution 함수를 완성해보세요.
+
+func checkNumber(_ numbers: [Int], _ k: Int) -> Int {
+    var idx: Int = 2 * (k - 1)
+    if idx > numbers.count {
+        let denom = idx / numbers.count
+        idx = idx - (numbers.count * denom)
+    }
+    
+    return numbers[idx]
+}
+checkNumber([1,2,3,4,5], 1)
+checkNumber([1,2,3,4,5], 2)
+checkNumber([1,2,3,4,5], 3)
+checkNumber([1,2,3,4,5], 4)
+checkNumber([1,2,3,4,5], 5)
+checkNumber([1,2,3,4,5], 6)
+
+
 //: [Next](@next)

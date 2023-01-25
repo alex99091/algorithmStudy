@@ -125,13 +125,13 @@ func findCipher(_ cipher: String,_ code: Int) -> String {
 
 func findCipher2(_ cipher: String,_ code: Int) -> String {
     var answer = ""
-
-     for (i, s) in cipher.enumerated() {
-         if (i+1)%code == 0 {
-             answer += String(s)
-         }
-     }
-     return answer
+    
+    for (i, s) in cipher.enumerated() {
+        if (i+1)%code == 0 {
+            answer += String(s)
+        }
+    }
+    return answer
 }
 
 findCipher("asdAasdBasdCefwD", 4)
@@ -228,3 +228,115 @@ func revertPossible(_ before: String, _ after: String) -> Int {
 }
 revertPossible("olleh", "hello")
 revertPossible("5 7hi hello", "ohoh")
+
+
+// 영어가 싫은 머쓱이는 영어로 표기되어있는 숫자를 수로 바꾸려고 합니다.
+// 문자열 numbers가 매개변수로 주어질 때, numbers를 정수로 바꿔 return 하도록 solution 함수를 완성해 주세요.
+print("========")
+func converStrToNum(_ numbers: String) -> Int64 {
+    let board: Dictionary<String, String> =
+    ["zero":"0", "one": "1", "two": "2", "three": "3", "four": "4", "five": "5",
+     "six":"6", "seven": "7", "eight": "8", "nine": "9"]
+    var answer: String = ""
+    var temp: String = ""
+    for i in numbers {
+        temp.append(String(i))
+        if board.keys.contains(temp) {
+            answer.append(String(board[temp]!))
+            temp = ""
+        }
+    }
+    return Int64(answer)!
+}
+converStrToNum("onefourzero")
+
+// 문자열 my_str과 n이 매개변수로 주어질 때,
+// my_str을 길이 n씩 잘라서 저장한 배열을 return하도록 solution 함수를 완성해주세요.
+
+func cutString(_ my_str: String, _ n: Int) -> [String] {
+    var answer: [String] = []
+    var tempStr: String = ""
+    let arr = ArraySlice(my_str)
+    let leftStrIdx = arr.count - arr.count % n
+    let leftStrSize = arr.count % n
+    
+    for i in 0...(arr.count - 1) {
+        tempStr.append(arr[i])
+        if i < leftStrIdx {
+            if tempStr.count == n {
+                answer.append(tempStr)
+                tempStr = ""
+            }
+        } else {
+            if tempStr.count == leftStrSize {
+                answer.append(tempStr)
+            }
+        }
+    }
+    
+    return answer
+}
+cutString("abc1Addfggg4556b", 6)
+cutString("abcdef123", 3)
+
+// my_string은 "3 + 5"처럼 문자열로 된 수식입니다.
+// 문자열 my_string이 매개변수로 주어질 때, 수식을 계산한 값을 return 하는 solution 함수를 완성해주세요.
+
+func changeStrToMathFunction(_ my_string:String) -> Int {
+    let intArr = my_string.split(separator: " ").filter { $0 != "+" && $0 != "-"}
+    let operArr = my_string.map { $0.isNumber ? " " : String($0) }.joined().split(separator: " ")
+    var answer = Int(String(intArr[0]))!
+    
+    for idx in 1..<intArr.count {
+        if operArr[idx - 1] == "+" {
+            answer += Int(String(intArr[idx]))!
+        } else {
+            answer -= Int(String(intArr[idx]))!
+        }
+    }
+    return answer
+}
+changeStrToMathFunction("3 + 4")
+changeStrToMathFunction("1 + 2 - 3 + 5")
+
+// 숫자와 "Z"가 공백으로 구분되어 담긴 문자열이 주어집니다.
+// 문자열에 있는 숫자를 차례대로 더하려고 합니다.
+// 이 때 "Z"가 나오면 바로 전에 더했던 숫자를 뺀다는 뜻입니다.
+// 숫자와 "Z"로 이루어진 문자열 s가 주어질 때, 머쓱이가 구한 값을 return 하도록 solution 함수를 완성해보세요.
+
+func changeStrToMathFunction2(_ s:String) -> Int {
+    let numArr = s.split(separator: " ")
+    
+    var answer: Int = 0
+    for i in 0..<numArr.count {
+        if numArr[i] == "Z" {
+            answer -= Int(String(numArr[i - 1]))!
+        } else if numArr[i].contains("-") {
+            answer -= Int(String(numArr[i].trimmingCharacters(in: ["-"])))!
+        } else {
+            answer += Int(String(numArr[i]))!
+        }
+        print("i : \(i), num: \(numArr[i]), answer: \(answer)")
+    }
+    print(numArr)
+    
+    return answer
+}
+//changeStrToMathFunction2("10 20 Z -3 Z 20")
+changeStrToMathFunction2("-1 -2 -3 Z")
+
+// PROGRAMMERS-962 행성에 불시착한 우주비행사 머쓱이는 외계행성의 언어를 공부하려고 합니다.
+// 알파벳이 담긴 배열 spell과 외계어 사전 dic이 매개변수로 주어집니다.
+// spell에 담긴 알파벳을 한번씩만 모두 사용한 단어가 dic에 존재한다면 1, 존재하지 않는다면 2를 return하도록 solution 함수를 완성해주세요.
+
+func findSpell(_ spell:[String], _ dic:[String]) -> Int {
+    let sortedSpell = spell.sorted().joined()
+    
+    for c in dic {
+        if Array(c).sorted().map { String($0) }.joined() == sortedSpell {
+            return 1
+        }
+    }
+    
+    return 2
+}
