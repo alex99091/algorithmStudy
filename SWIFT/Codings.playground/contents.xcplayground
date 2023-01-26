@@ -7,5 +7,7 @@
         <page name='String'/>
         <page name='Index'/>
         <page name='Index2'/>
+        <page name='rest'/>
+        <page name='applied'/>
     </pages>
 </playground>
