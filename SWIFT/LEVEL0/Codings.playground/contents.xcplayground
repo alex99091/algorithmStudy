@@ -9,5 +9,6 @@
         <page name='Index2'/>
         <page name='rest'/>
         <page name='applied'/>
+        <page name='applied(2)'/>
     </pages>
 </playground>
