@@ -9,7 +9,7 @@
 >
 >  ![Done] **Level 0:** [Questions: 100/100]
 >
->  ![Doing] **Level 1:** [Questions: 3/100]
+>  ![Doing] **Level 1:** [Questions: 43/67]
 >  
 >  ![Todo] **Level 2** [Questions: 0/100]
 >
