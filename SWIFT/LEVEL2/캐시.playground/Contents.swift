@@ -22,6 +22,7 @@ func solution(_ cacheSize:Int, _ cities:[String]) -> Int {
             time += cacheMiss
         }
         cache += [city.lowercased()]
+        print(city)
     }
     return time
 }
