@@ -9,9 +9,9 @@
 >
 >  ![Done] **Level 0:** [Questions: 100/100]
 >
->  ![Doing] **Level 1:** [Questions: 43/67]
+>  ![Doing] **Level 1:** [Questions: 65/67]
 >  
->  ![Todo] **Level 2** [Questions: 0/100]
+>  ![Todo] **Level 2** [Questions: 18/100]
 >
 >  ### Type
 >  
