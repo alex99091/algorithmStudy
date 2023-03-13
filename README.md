@@ -6,8 +6,10 @@
 >
 >  
 > <table>
-> <tr> <td> <b> LISTS </b> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>:one: iOS: Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
+> <tr> <td> <b> [iOS] lists </b> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>:one: Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
+> <tr> <td> <b> [Swift] lists </b> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>:one: struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
 > </table>
 >
 >
