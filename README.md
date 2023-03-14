@@ -8,8 +8,11 @@
 > <table>
 > <tr> <td> <b> [iOS] lists </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>:one: Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=24000ddf31604a038a28bb65939563aa&pm=s"><span>:two: 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=85ef6d3b37514eb58bacffc7dc1cabdd&pm=s"><span>:three: 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇?</span> </a> </td> </tr>
 > <tr> <td> <b> [Swift] lists </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>:one: struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>:two: Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
 > </table>
 >
 >
