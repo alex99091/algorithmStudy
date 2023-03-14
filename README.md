@@ -121,11 +121,8 @@
 > </tr>
 > </table>
 >
->
->  ![Doing] **Level 2:** [Questions: 19/87]
->
->
-><table>
+> ![Doing] **Level 2:** [Questions: 19/87]
+> <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/H-Index.playground/Contents.swift>H-Index</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/JadenCase%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A7%8C%EB%93%A4%EA%B8%B0.playground/Contents.swift>JadenCase문자열만들기</a> </td> 
@@ -140,25 +137,31 @@
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%98%88%EC%83%81%EB%8C%80%EC%A7%84%ED%91%9C.playground/Contents.swift>예상대진표</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%98%AC%EB%B0%94%EB%A5%B8%EA%B4%84%ED%98%B8.playground/Contents.swift>올바른괄호</a> </td> 
 > </tr>
-> <tr> 
+> <tr>
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%B9%B4%ED%8E%AB.playground/Contents.swift>카펫</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%BA%90%EC%8B%9C.playground/Contents.swift>캐시</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%8C%8C%EB%B3%B4%EB%82%98%EC%B9%98%EC%88%98.playground/Contents.swift>파보나치수</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%96%89%EB%A0%AC%EC%9D%98%EA%B3%B1%EC%85%88.playground/Contents.swift>행렬의곱셈</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%96%89%EB%A0%AC%EC%9D%98%EA%B3%B1%EC%85%88.playground/Contents.swift>귤</a> </td> 
 > </tr>
-<tr> 
-> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%B9%B4%ED%8E%AB.playground/Contents.swift>위장</a> </td> 
-> <td> </td> 
-> <td> </td> 
-> <td> </td> 
-> <td> </td> 
+> <tr>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%9C%84%EC%9E%A5.playground/Contents.swift>위장</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%9D%B4%EC%A7%84%EB%B3%80%ED%99%98%EB%B0%98%EB%B3%B5%ED%95%98%EA%B8%B0.playground/Contents.swift>이진변환반복하기</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%A0%90%ED%94%84%EC%99%80%EC%88%9C%EA%B0%84%EC%9D%B4%EB%8F%99.playground/Contents.swift>점프와순간이동</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0.playground/Contents.swift>짝지어제거하기</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%B5%9C%EB%8C%93%EA%B0%92%EA%B3%BC%EC%B5%9C%EC%86%9F%EA%B0%92.playground/Contents.swift>최댓값과최솟값</a> </td> 
+> </tr>
+> <tr>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/tree/main/SWIFT/LEVEL2/%EC%B5%9C%EC%86%9F%EA%B0%92%EB%A7%8C%EB%93%A4%EA%B8%B0.playground>최솟값만들기</a> </td> 
+> <td>  </td> 
+> <td>  </td> 
+> <td>  </td> 
+> <td>  </td> 
 > </tr>
 > </table>
->  
->  ![Todo] **Level 3** [Questions: 0/100]
 >
->  
+>  ![Todo] **Level 3** [Questions: 0/100]
+
 
 [Pausing]: https://img.shields.io/badge/-Pausing-red
 [ToDo]: https://img.shields.io/badge/-ToDo-yellow
