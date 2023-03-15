@@ -124,7 +124,7 @@
 > </tr>
 > </table>
 >
-> ![Doing] **Level 2:** [Questions: 19/87]
+> ![Doing] **Level 2:** [Questions: 23/87]
 > <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/H-Index.playground/Contents.swift>H-Index</a> </td> 
@@ -156,8 +156,8 @@
 > </tr>
 > <tr>
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/tree/main/SWIFT/LEVEL2/%EC%B5%9C%EC%86%9F%EA%B0%92%EB%A7%8C%EB%93%A4%EA%B8%B0.playground>최솟값만들기</a> </td> 
-> <td>  </td> 
-> <td>  </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/n%EC%A0%9C%EA%B3%B1%EB%B0%B0%EC%97%B4%EC%9E%90%EB%A5%B4%EA%B8%B0.playground/Contents.swift>n^2배열자르기</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%8A%9C%ED%94%8C.playground/Contents.swift>튜플</a> </td> 
 > <td>  </td> 
 > <td>  </td> 
 > </tr>
