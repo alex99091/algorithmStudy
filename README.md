@@ -6,20 +6,21 @@
 >
 >  
 > <table>
-> <tr> <td> <b> [iOS] lists </b> </td> </tr>
+> <tr> <td> <b> Autolayout </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=423ad33c32ed4991acf4868e75a191a7&pm=s"><span>:one: 오토레이아웃을 코드로 작성하는 방법 3가지?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=cc18f85729594f90b03188a5727a6638&pm=s"><span>:two: Safearea는 무엇??</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=aff1f8543a67468d9126eec816227b0e&pm=s"><span>:three: 스토리보드를 이용했을때의 장단점??</span> </a> </td> </tr>
 > <tr> <td> <span>:four: hugging, resistance는 무엇인가??</span> </a> </td> </tr>
 > <tr> <td> <span>:five: Intrinsic Size는 무엇인가??</span> </a> </td> </tr>
 > <tr> <td> <span>:six: Left Constraint와 Leading Constraint의 차이점은??</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>:six: Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=24000ddf31604a038a28bb65939563aa&pm=s"><span>:seven: 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=85ef6d3b37514eb58bacffc7dc1cabdd&pm=s"><span>:eight: 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6d1e389f66424f50828f11efcec5b6ce&pm=s"><span>:nine: 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=3c59eb2292c84341a24982fe89761247&pm=s"><span>:ten: App Thinning 이란 무엇인가?</span> </a> </td> </tr>
+> <tr> <td> <b> iOS </b> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>:one: Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=24000ddf31604a038a28bb65939563aa&pm=s"><span>:two: 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=85ef6d3b37514eb58bacffc7dc1cabdd&pm=s"><span>:three: 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6d1e389f66424f50828f11efcec5b6ce&pm=s"><span>:four: 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=3c59eb2292c84341a24982fe89761247&pm=s"><span>:five: App Thinning 이란 무엇인가?</span> </a> </td> </tr>
 
-> <tr> <td> <b> [Swift] lists </b> </td> </tr>
+> <tr> <td> <b> Swift </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>:one: struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>:two: Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
 > </table>
@@ -167,8 +168,8 @@
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/tree/main/SWIFT/LEVEL2/%EC%B5%9C%EC%86%9F%EA%B0%92%EB%A7%8C%EB%93%A4%EA%B8%B0.playground>최솟값만들기</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/n%EC%A0%9C%EA%B3%B1%EB%B0%B0%EC%97%B4%EC%9E%90%EB%A5%B4%EA%B8%B0.playground/Contents.swift>n^2배열자르기</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%8A%9C%ED%94%8C.playground/Contents.swift>튜플</a> </td> 
-> <td>  </td> 
-> <td>  </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.playground/Contents.swift>기능개발</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%94%84%EB%A6%B0%ED%84%B0.playground/Contents.swift>프린터</a> </td> 
 > </tr>
 > </table>
 >
