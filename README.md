@@ -2,7 +2,7 @@
 
 >  ### iOS Study
 >
-> [My Notion → iOS 개념정리](https://www.notion.so/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c)
+> [Notion: iOS 개념정리](https://www.notion.so/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c)
 >
 >  
 > <table>
@@ -10,9 +10,9 @@
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=423ad33c32ed4991acf4868e75a191a7&pm=s"><span>:one: 오토레이아웃을 코드로 작성하는 방법 3가지?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=cc18f85729594f90b03188a5727a6638&pm=s"><span>:two: Safearea는 무엇??</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=aff1f8543a67468d9126eec816227b0e&pm=s"><span>:three: 스토리보드를 이용했을때의 장단점??</span> </a> </td> </tr>
-> <tr> <td> <span>:four: hugging, resistance는 무엇인가??</span> </a> </td> </tr>
-> <tr> <td> <span>:five: Intrinsic Size는 무엇인가??</span> </a> </td> </tr>
-> <tr> <td> <span>:six: Left Constraint와 Leading Constraint의 차이점은??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=d35273aa0cea45af8111e3d7176bd919&pm=s"> <span>:four: hugging, resistance는 무엇인가??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=9fc96716c2cc4b30a794e0bfd14e57a1&pm=s"> <span>:five: Intrinsic Size는 무엇인가??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=d97080338c70486ca782a08974dc976b&pm=s"> <span>:six: Left Constraint와 Leading Constraint의 차이점은??</span> </a> </td> </tr>
 > <tr> <td> <b> iOS </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>:one: Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=24000ddf31604a038a28bb65939563aa&pm=s"><span>:two: 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명?</span> </a> </td> </tr>
@@ -134,7 +134,7 @@
 > </tr>
 > </table>
 >
-> ![Doing] **Level 2:** [Questions: 23/87]
+> ![Doing] **Level 2:** [Questions: 27/87]
 > <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/H-Index.playground/Contents.swift>H-Index</a> </td> 
@@ -170,6 +170,13 @@
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%8A%9C%ED%94%8C.playground/Contents.swift>튜플</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.playground/Contents.swift>기능개발</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%94%84%EB%A6%B0%ED%84%B0.playground/Contents.swift>프린터</a> </td> 
+> </tr>
+> <tr>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EB%89%B4%EC%8A%A4%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81.playground/Contents.swift>뉴스클러스팅</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.playground/Contents.swift>타겟넘버</a> </td> 
+> <td> </td> 
+> <td> </td> 
+> <td> </td> 
 > </tr>
 > </table>
 >
