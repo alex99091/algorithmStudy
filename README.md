@@ -134,7 +134,7 @@
 > </tr>
 > </table>
 >
-> ![Doing] **Level 2:** [Questions: 27/87]
+> ![Doing] **Level 2:** [Questions: 29/87]
 > <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/H-Index.playground/Contents.swift>H-Index</a> </td> 
@@ -174,8 +174,8 @@
 > <tr>
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EB%89%B4%EC%8A%A4%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81.playground/Contents.swift>뉴스클러스팅</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.playground/Contents.swift>타겟넘버</a> </td> 
-> <td> </td> 
-> <td> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%EC%86%8C%EC%88%98%EA%B0%9C%EC%88%98%EA%B5%AC%ED%95%98%EA%B8%B0.playground/Contents.swift>k진수에서소수개수구하기</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%95%95%EC%B6%95.playground/Contents.swift>뉴스클러스팅</a> </td> 
 > <td> </td> 
 > </tr>
 > </table>
