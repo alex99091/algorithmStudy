@@ -8,7 +8,7 @@
 > <table>
 > <tr> <td> <b> Autolayout </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=423ad33c32ed4991acf4868e75a191a7&pm=s"><span>:one: 오토레이아웃을 코드로 작성하는 방법 3가지?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=cc18f85729594f90b03188a5727a6638&pm=s"><span>:two: Safearea는 무엇??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=cc18f85729594f90b03188a5727a6638&pm=s"><span>:two: Safe Area는 무엇??</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=aff1f8543a67468d9126eec816227b0e&pm=s"><span>:three: 스토리보드를 이용했을때의 장단점??</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=d35273aa0cea45af8111e3d7176bd919&pm=s"> <span>:four: hugging, resistance는 무엇인가??</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=9fc96716c2cc4b30a794e0bfd14e57a1&pm=s"> <span>:five: Intrinsic Size는 무엇인가??</span> </a> </td> </tr>
@@ -20,6 +20,7 @@
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6d1e389f66424f50828f11efcec5b6ce&pm=s"><span>:four: 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=3c59eb2292c84341a24982fe89761247&pm=s"><span>:five: App Thinning 이란 무엇인가?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6b360fc9cd864c61944f93775cee3511&pm=s"><span>:six: 앱이 시작할 때 UIApplicationMain 함수에 의해서 생성되는 객체는?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f4a5266932cc4ebc9f16cc4bcc9d2c16&pm=s"><span>:seven: 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항?</span> </a> </td> </tr>
 > <tr> <td> <b> Swift </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>:one: struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>:two: Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
@@ -134,7 +135,7 @@
 > </tr>
 > </table>
 >
-> ![Doing] **Level 2:** [Questions: 29/87]
+> ![Doing] **Level 2:** [Questions: 31/87]
 > <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/H-Index.playground/Contents.swift>H-Index</a> </td> 
@@ -176,7 +177,14 @@
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.playground/Contents.swift>타겟넘버</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%EC%86%8C%EC%88%98%EA%B0%9C%EC%88%98%EA%B5%AC%ED%95%98%EA%B8%B0.playground/Contents.swift>k진수에서소수개수구하기</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%95%95%EC%B6%95.playground/Contents.swift>압축</a> </td> 
-> <td> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/n%EC%A7%84%EC%88%98%EA%B2%8C%EC%9E%84.playground/Contents.swift>n진수게임</a> </td> 
+> </tr>
+> <tr>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%94%BC%EB%A1%9C%EB%8F%84.playground/Contents.swift>피로도</a> </td> 
+> <td> </td>
+> <td> </td>
+> <td> </td>
+> <td> </td>
 > </tr>
 > </table>
 >
