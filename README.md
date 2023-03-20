@@ -20,7 +20,9 @@
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6d1e389f66424f50828f11efcec5b6ce&pm=s"><span>:four: 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=3c59eb2292c84341a24982fe89761247&pm=s"><span>:five: App Thinning 이란 무엇인가?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6b360fc9cd864c61944f93775cee3511&pm=s"><span>:six: 앱이 시작할 때 UIApplicationMain 함수에 의해서 생성되는 객체는?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f4a5266932cc4ebc9f16cc4bcc9d2c16&pm=s"><span>:seven: 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=1bf2d0b1ef5849b78df3796331d54400&pm=s"><span>:seven: 상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=166f696a01f6489cb10168ac0dd04b2f&pm=s"><span>:eight: scene delegate에 대해 설명??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f4a5266932cc4ebc9f16cc4bcc9d2c16&pm=s"><span>:nine: 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항?</span> </a> </td> </tr>
 > <tr> <td> <b> Swift </b> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>:one: struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>:two: Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
@@ -135,7 +137,7 @@
 > </tr>
 > </table>
 >
-> ![Doing] **Level 2:** [Questions: 31/87]
+> ![Doing] **Level 2:** [Questions: 33/87]
 > <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/H-Index.playground/Contents.swift>H-Index</a> </td> 
@@ -181,8 +183,8 @@
 > </tr>
 > <tr>
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%94%BC%EB%A1%9C%EB%8F%84.playground/Contents.swift>피로도</a> </td> 
-> <td> </td>
-> <td> </td>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%A3%BC%EC%B0%A8%EC%9A%94%EA%B8%88%EA%B3%84%EC%82%B0.playground/Contents.swift>주차요금계산</a></td>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9.playground/Contents.swift>오픈채팅방</a></td>
 > <td> </td>
 > <td> </td>
 > </tr>
