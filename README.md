@@ -7,25 +7,29 @@
 >  
 > <table>
 > <tr> <td> <b> Autolayout </b> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=423ad33c32ed4991acf4868e75a191a7&pm=s"><span>:one: 오토레이아웃을 코드로 작성하는 방법 3가지?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=cc18f85729594f90b03188a5727a6638&pm=s"><span>:two: Safe Area는 무엇??</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=aff1f8543a67468d9126eec816227b0e&pm=s"><span>:three: 스토리보드를 이용했을때의 장단점??</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=d35273aa0cea45af8111e3d7176bd919&pm=s"> <span>:four: hugging, resistance는 무엇인가??</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=9fc96716c2cc4b30a794e0bfd14e57a1&pm=s"> <span>:five: Intrinsic Size는 무엇인가??</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=d97080338c70486ca782a08974dc976b&pm=s"> <span>:six: Left Constraint와 Leading Constraint의 차이점은??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=423ad33c32ed4991acf4868e75a191a7&pm=s"><span>1. 오토레이아웃을 코드로 작성하는 방법 3가지?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=cc18f85729594f90b03188a5727a6638&pm=s"><span>2. Safe Area는 무엇??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=aff1f8543a67468d9126eec816227b0e&pm=s"><span>3. 스토리보드를 이용했을때의 장단점??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=d35273aa0cea45af8111e3d7176bd919&pm=s"> <span>4. hugging, resistance는 무엇인가??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=9fc96716c2cc4b30a794e0bfd14e57a1&pm=s"> <span>5. Intrinsic Size는 무엇인가??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=d97080338c70486ca782a08974dc976b&pm=s"> <span>6. Left Constraint와 Leading Constraint의 차이점은??</span> </a> </td> </tr>
 > <tr> <td> <b> iOS </b> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>:one: Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=24000ddf31604a038a28bb65939563aa&pm=s"><span>:two: 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=85ef6d3b37514eb58bacffc7dc1cabdd&pm=s"><span>:three: 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6d1e389f66424f50828f11efcec5b6ce&pm=s"><span>:four: 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=3c59eb2292c84341a24982fe89761247&pm=s"><span>:five: App Thinning 이란 무엇인가?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6b360fc9cd864c61944f93775cee3511&pm=s"><span>:six: 앱이 시작할 때 UIApplicationMain 함수에 의해서 생성되는 객체는?</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=1bf2d0b1ef5849b78df3796331d54400&pm=s"><span>:seven: 상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명??</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=166f696a01f6489cb10168ac0dd04b2f&pm=s"><span>:eight: scene delegate에 대해 설명??</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f4a5266932cc4ebc9f16cc4bcc9d2c16&pm=s"><span>:nine: 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=5d6b4e5fa90f414e93ca8ae4f378db02&pm=s"><span>1. Bounds 와 Frame 의 차이점은?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=24000ddf31604a038a28bb65939563aa&pm=s"><span>2. 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=85ef6d3b37514eb58bacffc7dc1cabdd&pm=s"><span>3. 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6d1e389f66424f50828f11efcec5b6ce&pm=s"><span>4. 앱 화면의 콘텐츠를 표시하는 로직과 관리를 담당하는 객체를 무엇?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=3c59eb2292c84341a24982fe89761247&pm=s"><span>5. App Thinning 이란 무엇인가?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=6b360fc9cd864c61944f93775cee3511&pm=s"><span>6. 앱이 시작할 때 UIApplicationMain 함수에 의해서 생성되는 객체는?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=a06b57d7792240e6ba95b18f29bdf0da&pm=s"><span>7. App의 Not running, Inactive, Active, Background, Suspended 상태는 무엇??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=1bf2d0b1ef5849b78df3796331d54400&pm=s"><span>8. 상태 변화에 따라 다른 동작을 처리하기 위한 앱델리게이트 메서드들을 설명??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=437f6c1c2fa545089daeb6c61acd4f4d&pm=s"><span>9. @Main은 무엇인가요??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=166f696a01f6489cb10168ac0dd04b2f&pm=s"><span>10. scene delegate에 대해 설명??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=285b9b50e56b4bb1a8b7627bb8dd5eb3&pm=s"><span>11. UIApplication 객체의 컨트롤러 역할은 어디에 구현??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f4a5266932cc4ebc9f16cc4bcc9d2c16&pm=s"><span>12. 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항?</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=49afb4d677334a0f9ce707b441865148&pm=s"><span>13. 앱이 In-Active 상태가 되는 시나리오를 설명??</span> </a> </td> </tr>
 > <tr> <td> <b> Swift </b> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>:one: struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>:two: Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>1. struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>2. Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
 > </table>
 >
 >
@@ -37,7 +41,7 @@
 >
 >  ![Done] **Level 0:** [Questions: 100/100]
 >
->  ![Done] **Level 1:** [Questions: 67/67]
+>  ![Done] **Level 1:** [Questions: 70/70]
 > <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL1/2016%EB%85%84.playground/Contents.swift>2016년</a> </td> 
@@ -133,7 +137,9 @@
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL1/%ED%96%84%EB%B2%84%EA%B1%B0%EB%A7%8C%EB%93%A4%EA%B8%B0.playground/Contents.swift>햄버거만들기</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL1/%ED%96%89%EB%A0%AC%EC%9D%98%EB%8D%A7%EC%85%88.playground/Contents.swift>행렬의덧셈</a> </td> 
-> <td>  </td> <td>  </td> <td>  </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL1/%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%EC%A0%95%EB%A6%AC.playground/Contents.swift>바탕화면정리</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL1/%EB%8C%80%EC%B6%A9%EB%A7%8C%EB%93%A0%EC%9E%90%ED%8C%90.playground/Contents.swift>대충만든자판</a> </td> 
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL1/%EC%B9%B4%EB%93%9C%EB%AD%89%EC%B9%98.playground/Contents.swift>카드뭉치</a> </td> 
 > </tr>
 > </table>
 >
@@ -191,6 +197,15 @@
 > </table>
 >
 >  ![Todo] **Level 3** [Questions: 0/100]
+>
+>
+>
+>
+>
+>
+>
+>
+>
 
 
 [Pausing]: https://img.shields.io/badge/-Pausing-red
