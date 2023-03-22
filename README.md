@@ -28,8 +28,10 @@
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f4a5266932cc4ebc9f16cc4bcc9d2c16&pm=s"><span>12. 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항?</span> </a> </td> </tr>
 > <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=49afb4d677334a0f9ce707b441865148&pm=s"><span>13. 앱이 In-Active 상태가 되는 시나리오를 설명??</span> </a> </td> </tr>
 > <tr> <td> <b> Swift </b> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>1. struct와 class와 enum의 차이를 설명하시오.</span> </a> </td> </tr>
-> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>2. Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s"><span>1. struct와 class와 enum의 차이점은??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=eb5db56361f747cf94dd3fcc4eaf1e7c&pm=s"><span>2. Struct의 정의와 사용법은??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=27a697c5a58949e7bb50143ad3c6bc5b&pm=s"><span>3. Fast Enumeration은 무엇??</span> </a> </td> </tr>
+> <tr> <td> <a href = https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s"><span>4. Optional 이란 무엇인지 설명하시오.</span> </a> </td> </tr>
 > </table>
 >
 >
@@ -143,7 +145,7 @@
 > </tr>
 > </table>
 >
-> ![Doing] **Level 2:** [Questions: 33/87]
+> ![Doing] **Level 2:** [Questions: 35/87]
 > <table>
 > <tr> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/H-Index.playground/Contents.swift>H-Index</a> </td> 
@@ -191,8 +193,8 @@
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%94%BC%EB%A1%9C%EB%8F%84.playground/Contents.swift>피로도</a> </td> 
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%A3%BC%EC%B0%A8%EC%9A%94%EA%B8%88%EA%B3%84%EC%82%B0.playground/Contents.swift>주차요금계산</a></td>
 > <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9.playground/Contents.swift>오픈채팅방</a></td>
-> <td> </td>
-> <td> </td>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%8C%8C%EC%9D%BC%EB%AA%85%EC%A0%95%EB%A0%AC.playground/Contents.swift>파일명정렬 </a></td>
+> <td> <a href = https://github.com/alex99091/AlgorithmStudy/blob/main/SWIFT/LEVEL2/%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D.playground/Contents.swift>프렌즈4블록</a> </td>
 > </tr>
 > </table>
 >
