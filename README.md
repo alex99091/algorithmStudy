@@ -98,9 +98,9 @@
 
 ## Algorithm Problems
 
-#### [프로그래머스: 챌린지](https://school.programmers.co.kr/learn/challenges?order=recent&statuses=unsolved&levels=2)
-
 ### Status
+#### [프로그래머스: 챌린지](https://school.programmers.co.kr/learn/challenges?order=recent&statuses=unsolved&levels=2)
+<img src="https://user-images.githubusercontent.com/111719007/227124472-10a993db-4c49-43b6-b994-d3a30830726b.png" height="80"/>
 
 ![Done] **Level 0:** [Questions: 100/100]
 
