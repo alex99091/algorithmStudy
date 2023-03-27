@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [KODECO Study Contents](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Contents)
+- [KODECO Study Contents](https://github.com/alex99091/iOS-Algorithm-Study#KODECO-Study-Contents)
 - [iOS Study Contents](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Contents)
 - [Data Structure Contents](https://github.com/alex99091/iOS-Algorithm-Study#Data-Structure-Contents)
 - [Algorithm Contents](https://github.com/alex99091/iOS-Algorithm-Study#Algorithm-Contents)
