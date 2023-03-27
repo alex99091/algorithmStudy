@@ -2,6 +2,8 @@
 
 ## Contents
 
+- [KODECO Study Apperance](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Apperance)
+- [KODECO Study Contents](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Contents)
 - [iOS Study Apperance](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Apperance)
 - [iOS Study Contents](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Contents)
 - [Data Structure Apperance](https://github.com/alex99091/iOS-Algorithm-Study#Data-Structure-Apperance)
@@ -9,14 +11,48 @@
 - [Algorithm Contents](https://github.com/alex99091/iOS-Algorithm-Study#Algorithm-Contents)
 - [Algorithm Problems](https://github.com/alex99091/iOS-Algorithm-Study#Algorithm-Problems)
 
+## KODECO Study Apperance
+
+<img src="https://user-images.githubusercontent.com/111719007/227918092-ed0e304a-8e58-4283-9fac-3cde85dbb6e1.gif" height="450"/>
+
+## KODECO Study Contents
+
+### 학습목표
+#### [Notion: iOS 학습 링크](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb)
+
+
+1. UIKit을 활용한 iOS앱 개발 이해하고 적용하기
+2. iOS Data와 Networking 환경을 이해하고 적용하기
+3. iOS 디자인 패턴 이해하고 적용하기
+
+#### 1. iOS User Interfaces with UIKit
+- [UIKit Fundamantals](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=bd341241774f416585630f0a0a65d399&pm=s)
+- [Layout](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=2258f5452b354a8697ffcfee3e178a83&pm=s)
+- [Table Views](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=89f970798c2949229fc60c338cc2d105&pm=s)
+- [Collection Views](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=2f473bd517d4454c9aa89685960796ce&pm=s)
+- [Animation](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=d71e05db77354b3a805b99b23d7ca03b&pm=s)
+
+#### 2. iOS Data & Networking
+- [Saving Data in iOS]()
+- [Beginning Networking With URLSession]()
+- [Advanced Networking with URLSession]()
+- [Core Data: Fundamentals]()
+- [Beyond the Basics]()
+
+#### 3. iOS Design Patterns
+- [Fundamental iOS Design Patterns]()
+- [Intermediate iOS Design Patterns]()
+- [Integrate Combine Into an App]()
+
 ## iOS Study Apperance
 
-<img src="https://user-images.githubusercontent.com/111719007/227117883-69f4f31d-a5d0-44e4-ab84-11bf6e28b8d7.gif" height="300"/>
+<img src="https://user-images.githubusercontent.com/111719007/227117883-69f4f31d-a5d0-44e4-ab84-11bf6e28b8d7.gif" height="450"/>
 
 ## iOS Study Contents
 
 ### 학습목표
 #### [Notion: iOS 학습 링크](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a)
+
 
 1. 간결하고 직관적인 프로그래밍을 위해 `Swift 언어`의 `특성`을 이해하기
 2. `iOS 앱`에 대한 `개발 환경`을 이해하기
