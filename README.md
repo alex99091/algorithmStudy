@@ -14,9 +14,9 @@
 
 ## KODECO Study Contents
 
-### 학습목표
 #### [Notion: 링크](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb)
 
+### 학습목표
 
 1. UIKit을 활용한 iOS앱 개발 이해하고 적용하기
 2. iOS Data와 Networking 환경을 이해하고 적용하기
@@ -47,9 +47,9 @@
 
 ## iOS Study Contents
 
-### 학습목표
 #### [Notion: 링크](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a)
 
+### 학습목표
 
 1. 간결하고 직관적인 프로그래밍을 위해 `Swift 언어`의 `특성`을 이해하기
 2. `iOS 앱`에 대한 `개발 환경`을 이해하기
