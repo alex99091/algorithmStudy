@@ -2,11 +2,8 @@
 
 ## Contents
 
-- [KODECO Study Apperance](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Apperance)
 - [KODECO Study Contents](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Contents)
-- [iOS Study Apperance](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Apperance)
 - [iOS Study Contents](https://github.com/alex99091/iOS-Algorithm-Study#iOS-Study-Contents)
-- [Data Structure Apperance](https://github.com/alex99091/iOS-Algorithm-Study#Data-Structure-Apperance)
 - [Data Structure Contents](https://github.com/alex99091/iOS-Algorithm-Study#Data-Structure-Contents)
 - [Algorithm Contents](https://github.com/alex99091/iOS-Algorithm-Study#Algorithm-Contents)
 - [Algorithm Problems](https://github.com/alex99091/iOS-Algorithm-Study#Algorithm-Problems)
