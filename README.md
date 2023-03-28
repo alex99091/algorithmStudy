@@ -23,11 +23,11 @@
 3. iOS 디자인 패턴 이해하고 적용하기
 
 #### 1. iOS User Interfaces with UIKit
-- [UIKit Fundamantals](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=bd341241774f416585630f0a0a65d399&pm=s)
-- [Layout](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=2258f5452b354a8697ffcfee3e178a83&pm=s)
-- [Table Views](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=89f970798c2949229fc60c338cc2d105&pm=s)
-- [Collection Views](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=2f473bd517d4454c9aa89685960796ce&pm=s)
-- [Animation](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb&p=d71e05db77354b3a805b99b23d7ca03b&pm=s)
+- [UIKit Fundamantals](https://www.notion.so/ios-alex99091/iOS-User-Interfaces-with-UIKit-1-UIKit-Fundamantals-bd341241774f416585630f0a0a65d399)
+- [Layout](https://www.notion.so/ios-alex99091/iOS-User-Interfaces-with-UIKit-2-Layout-2258f5452b354a8697ffcfee3e178a83)
+- [Table Views](https://www.notion.so/ios-alex99091/iOS-User-Interfaces-with-UIKit-3-Table-Views-89f970798c2949229fc60c338cc2d105)
+- [Collection Views](https://www.notion.so/ios-alex99091/iOS-User-Interfaces-with-UIKit-4-Collection-Views-2f473bd517d4454c9aa89685960796ce)
+- [Animation](https://www.notion.so/ios-alex99091/iOS-User-Interfaces-with-UIKit-5-Animation-d71e05db77354b3a805b99b23d7ca03b)
 
 #### 2. iOS Data & Networking
 - [Saving Data in iOS]()
@@ -37,9 +37,9 @@
 - [Beyond the Basics]()
 
 #### 3. iOS Design Patterns
-- [Fundamental iOS Design Patterns]()
-- [Intermediate iOS Design Patterns]()
-- [Integrate Combine Into an App]()
+- [Fundamental iOS Design Patterns](https://www.notion.so/ios-alex99091/iOS-Design-Patterns-1-Fundamental-iOS-Design-Patterns-a65d1c77962844ddbe336909d68e95f1)
+- [Intermediate iOS Design Patterns](https://www.notion.so/ios-alex99091/iOS-Design-Patterns-2-Intermediate-iOS-Design-Patterns-3e1ad91e63b344ed87e840c701d8e139)
+- [Advanced iOS Design Patterns](https://www.notion.so/ios-alex99091/iOS-Design-Patterns-3-Advanced-iOS-Design-Patterns-d761f62cd3ae47539f3f456624207b24)
 
 ## iOS Study Apperance
 
