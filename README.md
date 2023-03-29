@@ -29,11 +29,11 @@
 - [Animation](https://www.notion.so/ios-alex99091/iOS-User-Interfaces-with-UIKit-5-Animation-d71e05db77354b3a805b99b23d7ca03b)
 
 #### [iOS Data & Networking]
-- [Saving Data in iOS]()
-- [Beginning Networking With URLSession]()
-- [Advanced Networking with URLSession]()
-- [Core Data: Fundamentals]()
-- [Beyond the Basics]()
+- [Saving Data in iOS](https://ios-alex99091.notion.site/iOS-Data-Networking-1-Saving-Data-in-iOS-90349b3170b045d28777c209c819afbe)
+- [Beginning Networking With URLSession](https://ios-alex99091.notion.site/iOS-Data-Networking-2-Beginning-Networking-With-URLSession-efd7e2e8b65645999efc0732a9bf7284)
+- [Advanced Networking with URLSession](https://ios-alex99091.notion.site/iOS-Data-Networking-3-Advanced-Networking-with-URLSession-34d762e7a6664ad49582b76e76f49be4)
+- [Core Data: Fundamentals](https://ios-alex99091.notion.site/iOS-Data-Networking-4-Core-Data-Fundamentals-7a04f8bec0d448d1ba12e8d2fb4fb409)
+- [Beyond the Basics](https://ios-alex99091.notion.site/iOS-Data-Networking-5-Beyond-the-Basics-d366645308ac4e3c9e0abbeecdc9dc03)
 
 #### [iOS Design Patterns]
 - [Fundamental iOS Design Patterns](https://www.notion.so/ios-alex99091/iOS-Design-Patterns-1-Fundamental-iOS-Design-Patterns-a65d1c77962844ddbe336909d68e95f1)
