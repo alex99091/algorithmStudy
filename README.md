@@ -15,8 +15,8 @@
 
 ### 학습목표
 
-- [링크: 노션페이지](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb)
-- `UIKit`을 활용한 iOS` 개발 이해하고 적용하기
+[링크: 노션페이지](https://www.notion.so/ios-alex99091/53b86c1062f04121946ef12ec7ddbca4?v=b60a269420b94eddb033c94d2e41eefb)
+- `UIKit`을 활용한 iOS 개발 이해하고 적용하기
 - iOS `Data`와 `Networking` `환경`을 이해하고 적용하기
 - iOS `디자인 패턴` 이해하고 적용하기
 - 각 강의의 `예제`를 직접 작성하여 만들어보기
@@ -47,7 +47,7 @@
 
 ### 학습목표
 
-- [링크: 노션페이지](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a)
+[링크: 노션페이지](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a)
 - 간결하고 직관적인 프로그래밍을 위해 `Swift 언어`의 `특성`을 이해하기
 - `iOS 앱`에 대한 `개발 환경`을 이해하기
 - `UIKit` 과 `SwiftUI`의 사용법을 이해하기
@@ -55,12 +55,17 @@
 - 위의 내용을 위해, 근본적인 `개념`들을 `정리`하기.
 
 #### [Swift]
-- [struct와 class와 enum의 정의 및 차이점??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f3db55af2f5c4a35bb4b3b81fef4eb3d&pm=s)
-- [Struct 사용법??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=eb5db56361f747cf94dd3fcc4eaf1e7c&pm=s)
-- [Fast Enumeration은 정의와 사용법??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=27a697c5a58949e7bb50143ad3c6bc5b&pm=s)
-- [instance, class, static 메서드의 정의와 차이점??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=fcf77dba6adc48f8aba07cf8fcbe1e20&pm=s)
-- [class의 성능을 향상 시킬수 있는 방법??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=b90315562db447fab2878fbfa05c4108&pm=s)
-- [Optional 이란 무엇??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=6cee9d2304b9438088cbdc579ee5ce9c&p=1282496bd8fe449cbec54aeb7d0f20ee&pm=s)
+- [struct와 class와 enum의 정의 및 차이점??](https://www.notion.so/ios-alex99091/struct-class-enum-f3db55af2f5c4a35bb4b3b81fef4eb3d)
+- [Struct 사용법??](https://www.notion.so/ios-alex99091/Struct-eb5db56361f747cf94dd3fcc4eaf1e7c)
+- [Fast Enumeration은 정의와 사용법??](https://www.notion.so/ios-alex99091/Fast-Enumeration-27a697c5a58949e7bb50143ad3c6bc5b)
+- [instance, class, static 메서드의 정의와 차이점??](https://www.notion.so/ios-alex99091/instance-class-static-fcf77dba6adc48f8aba07cf8fcbe1e20)
+- [class의 성능을 향상 시킬수 있는 방법??](https://www.notion.so/ios-alex99091/class-b90315562db447fab2878fbfa05c4108)
+- [Optional 이란 무엇??](https://www.notion.so/ios-alex99091/Optional-1282496bd8fe449cbec54aeb7d0f20ee)
+- [Copy On Write는 어떤 방식으로 동작??](https://www.notion.so/ios-alex99091/Copy-On-Write-0337629853694251aa65663305214d8a)
+- [Delegate 패턴을 활용하는 경우??](https://www.notion.so/ios-alex99091/Delegate-2cb6383d9880466c9c341cd832a817f8)
+- [Singleton 패턴을 활용하는 경우??](https://www.notion.so/Singleton-4b611b6038874b0198240acb081a3750)
+- [Delegate와 Notification의 차이점은??](https://www.notion.so/ios-alex99091/Delegates-Notification-7b355fdda0914475bcdf44d37de3e2ce)
+
 
 
 #### [iOS]
