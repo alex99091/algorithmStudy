@@ -30,8 +30,36 @@ progresses    speeds    return
 
 import Foundation
 
-func solution(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
-    
-    
-    return []
+/* func solution(_ progresses: [Int], _ speeds: [Int]) -> [Int] {
+    var result: [Int] = []
+    var lastDay = 0
+    for i in 0..<progresses.count {
+        let day = Int(ceil(Double(100 - progresses[i]) / Double(speeds[i])))
+        if day > lastDay {
+            lastDay = day
+            result.append(1)
+        } else {
+            result[result.count - 1] += 1
+        }
+    }
+    return result
+} */
+
+func solution(_ progresses: [Int], _ speeds: [Int]) -> [Int] {
+    var result: [Int] = []
+    var lastDay = 0
+    for (progress, speed) in zip(progresses, speeds) {
+        let day = Int(ceil(Double(100 - progress) / Double(speed)))
+        if day > lastDay {
+            lastDay = day
+            result.append(1)
+        } else {
+            result[result.count - 1] += 1
+        }
+    }
+    return result
 }
+
+
+// solution([93, 30, 55], [1, 30, 5])
+solution([95, 90, 99, 99, 80, 99]    , [1, 1, 1, 1, 1, 1]    )
