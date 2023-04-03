@@ -65,7 +65,11 @@
 - [Delegate 패턴을 활용하는 경우??](https://www.notion.so/ios-alex99091/Delegate-2cb6383d9880466c9c341cd832a817f8)
 - [Singleton 패턴을 활용하는 경우??](https://www.notion.so/Singleton-4b611b6038874b0198240acb081a3750)
 - [Delegate와 Notification의 차이점은??](https://www.notion.so/ios-alex99091/Delegates-Notification-7b355fdda0914475bcdf44d37de3e2ce)
-
+- [KVO 동작 방식은??](https://www.notion.so/ios-alex99091/KVO-769e19853e0049e68cda346a93a63833)
+- [Convenience init은??](https://www.notion.so/ios-alex99091/Convenience-init-31469939dba8428b846860aa588cc006)
+- [Any Object란??](https://www.notion.so/AnyObject-808232ce6d9842c8a68ab57adeaaa48d)
+- [Subscripts란??](https://www.notion.so/ios-alex99091/Subscripts-bfd2af19109b4fdfb6fe79a13a9acdb6)
+- [String은 왜 subscript로 접근이 안되는지??](https://www.notion.so/ios-alex99091/String-subscript-4faf956415bd44d59d6535dc651a4873)
 
 
 #### [iOS]
