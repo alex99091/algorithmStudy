@@ -70,6 +70,14 @@
 - [Any Object란??](https://www.notion.so/AnyObject-808232ce6d9842c8a68ab57adeaaa48d)
 - [Subscripts란??](https://www.notion.so/ios-alex99091/Subscripts-bfd2af19109b4fdfb6fe79a13a9acdb6)
 - [String은 왜 subscript로 접근이 안되는지??](https://www.notion.so/ios-alex99091/String-subscript-4faf956415bd44d59d6535dc651a4873)
+- [Extension이란??](https://www.notion.so/ios-alex99091/Extension-ad7dabf30ea94222bb9d593b279e2718)
+- [Extension 내부에서 함수를 override 할 수 있는지?](https://www.notion.so/ios-alex99091/Extension-override-03432189ca3446bd9a75f5653066b146)
+- [Mutating 키워드란??](https://www.notion.so/ios-alex99091/mutating-31bc5f3f2d104dcc9115e5f890390530)
+- [Protocol(프로토콜)이란??](https://www.notion.so/ios-alex99091/e7dcacc32ab54251a530762ef11b1303)
+- [POP와 OOP의 차이점은??](https://www.notion.so/ios-alex99091/Protocol-Oriented-Programming-Object-Oriented-Programming-2e2e74e5677046459c39ee7378728faf)
+- [Hashable은 왜 Equatable을 상속해야하는지??](https://www.notion.so/ios-alex99091/Hashable-Equatable-a8417994e6a04e1e9b4812693aba6532)
+- [Codable이란??](https://www.notion.so/ios-alex99091/Codable-05d1a03026624970acbdb59660cc602a)
+
 
 
 #### [iOS]
