@@ -76,7 +76,9 @@
 - [Protocol(프로토콜)이란??](https://www.notion.so/ios-alex99091/e7dcacc32ab54251a530762ef11b1303)
 - [POP와 OOP의 차이점은??](https://www.notion.so/ios-alex99091/Protocol-Oriented-Programming-Object-Oriented-Programming-2e2e74e5677046459c39ee7378728faf)
 - [Hashable은 왜 Equatable을 상속해야하는지??](https://www.notion.so/ios-alex99091/Hashable-Equatable-a8417994e6a04e1e9b4812693aba6532)
-- [Codable이란 ??](https://www.notion.so/ios-alex99091/Codable-05d1a03026624970acbdb59660cc602a)
+- [Codable란 무엇??](https://www.notion.so/ios-alex99091/Codable-05d1a03026624970acbdb59660cc602a)
+- [Closure란 무엇??](https://www.notion.so/ios-alex99091/Closure-30192cea8e3c47bcb6b7523dbcff35df)
+- [Closure와 함수와의 관계는??](https://www.notion.so/ios-alex99091/Closure-0822f1c1150b4ecfa826e9963c138adb)
 
 
 
