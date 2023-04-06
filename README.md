@@ -79,6 +79,10 @@
 - [Codable란 무엇??](https://www.notion.so/ios-alex99091/Codable-05d1a03026624970acbdb59660cc602a)
 - [Closure란 무엇??](https://www.notion.so/ios-alex99091/Closure-30192cea8e3c47bcb6b7523dbcff35df)
 - [Closure와 함수와의 관계는??](https://www.notion.so/ios-alex99091/Closure-0822f1c1150b4ecfa826e9963c138adb)
+- [Defer란 무엇??](https://www.notion.so/ios-alex99091/defer-0e0d0147f47544a5affcff2ebfd1bdd3)
+- [Defer의 호출순서와 Defer가 호출되지 않는 경우는??](https://www.notion.so/ios-alex99091/defer-defer-3a4be7a6f3dc47feb529c28fe10feae9)
+- [Generic이란 무엇??](https://www.notion.so/ios-alex99091/Generic-efc452514dcb459e9d037f002f411ddc)
+
 
 
 
