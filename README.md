@@ -86,6 +86,7 @@
 - [접근 제어자의 종류는??](https://www.notion.so/ios-alex99091/4984d5c8d8c5406fbbeedfd58973acb5)
 - [Some 키워드란??](https://www.notion.so/ios-alex99091/Some-f46905820e44403493b88e75f120dd70)
 - [Result 타입이란??](https://www.notion.so/ios-alex99091/Result-85970f0a1fac4394b89615c6c3dd2fc6)
+- [멀티 쓰레드의 정의와 동작방식들??](https://www.notion.so/ios-alex99091/c2618098218c46f38275dfb8ead41f9d)
 
 
 
