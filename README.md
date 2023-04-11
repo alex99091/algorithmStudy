@@ -105,6 +105,8 @@
 - [UIApplication 객체의 컨트롤러 역할??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=285b9b50e56b4bb1a8b7627bb8dd5eb3&pm=s)
 - [앱의 제약사항??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=f4a5266932cc4ebc9f16cc4bcc9d2c16&pm=s)
 - [앱이 In-Active 상태가 되는 시나리오??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=49afb4d677334a0f9ce707b441865148&pm=s)
+- [모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은??](https://www.notion.so/ios-alex99091/iOS-View-Controller-c7399c6d5dff41b5a0d4a35ab9af884d)
+- [UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드는??](https://www.notion.so/ios-alex99091/iOS-UIKit-12faf811b7d34a078197d6be51344411)
 
 #### [Autolayout]
 - [오토레이아웃을 코드로 작성하는 방법??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=423ad33c32ed4991acf4868e75a191a7&pm=s)
