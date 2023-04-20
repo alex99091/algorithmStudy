@@ -110,6 +110,8 @@
 - [View 객체란??](https://www.notion.so/ios-alex99091/iOS-View-2c3df89e45704a7cbe42c2c86b8fe2fa)
 - [UIView에서 Layer객체란??](https://www.notion.so/ios-alex99091/iOS-UIView-Layer-6a5695e17f8e48e1a08ad0b241072b66)
 - [Custom View 만들기??](https://www.notion.so/ios-alex99091/iOS-Custom-View-1ee5be5836444eb8addde36b44883d11)
+- [UIWindow 객체의 역할은??](https://www.notion.so/iOS-UIWindow-c61160d1440f4a979e4608052db4994c)
+- [App Bundle의 구조와 역할은??](https://www.notion.so/iOS-App-Bundle-e4c11b88d0ab40adbbc172520a3930e4)
 
 #### [Autolayout]
 - [오토레이아웃을 코드로 작성하는 방법??](https://www.notion.so/ios-alex99091/8d1aa3168a2d4b4192f66fe1f4fd4fa0?v=d423338f54e04e87892b8b72f471537a&p=423ad33c32ed4991acf4868e75a191a7&pm=s)
