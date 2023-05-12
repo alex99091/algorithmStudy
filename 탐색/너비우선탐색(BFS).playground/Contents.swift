@@ -142,3 +142,54 @@ func bfsExample(start: Int) {
 
 bfsExample(start: 0)
 
+/* 문제: 음료수 얼려먹기
+ N * M 크기의 얼음 틀이 있습니다. 구멍이 뚫려 있는 부분은 0, 칸막이가 존재하는 부분은 1로 표시됩니다.
+ 구멍이 뚫려 있는 부분끼리 상,하,좌,우로 붙어 있는 경우 서로 연결되어 있는 것으로 간주합니다.
+ 이때 얼음 틀의 모양이 주어졌을 때 생성되는 총 아이스크림의 개수를 구하는 프로그램을 작성하세요.
+ 다음의 4 x 5 얼음 틀에는 아이스크림이 총 3개 생성됩니다.
+ */
+
+/* 해결방법
+ 1. 특정한 지점의 상하좌우를 살펴보며 주변 지점에서 값이 0 이면서 방문하지 않은 지점이 있으면 해당 지점을 방문한다.
+ 2. 방문한 지점에서 다시 상하좌우를 살펴보며 연결된 모든 지점을 방문한다.
+ 3. 모든 노드에 대해서 1~2번의 과정을 반복하며 방문하지 않은 지점의 카운트를 세어본다. */
+func eatFrozenIcecream(_ board: [[Int]]) -> Int {
+    let n = board.count
+    let m = board[0].count
+    var visited = [[Bool]](repeating: [Bool](repeating: false, count: m), count: n)
+    
+    func dfs(_ x: Int, _ y: Int) {
+        visited[x][y] = true
+        let dx = [-1, 1, 0, 0]
+        let dy = [0, 0, -1, 1]
+        for i in 0..<4 {
+            let nx = x + dx[i]
+            let ny = y + dy[i]
+            if nx < 0 || nx >= n || ny < 0 || ny >= m {
+                continue
+            }
+            if board[nx][ny] == 0 && !visited[nx][ny] {
+                dfs(nx, ny)
+            }
+        }
+    }
+    
+    var count = 0
+    for i in 0..<n {
+        for j in 0..<m {
+            if board[i][j] == 0 && !visited[i][j] {
+                dfs(i, j)
+                count += 1
+            }
+        }
+    }
+    return count
+}
+
+let board = [[0,0,1,1,0],[0,0,0,1,1],[1,1,1,1,1],[0,0,0,0,0]]
+let count = eatFrozenIcecream(board) // 3
+print(count)
+
+
+
+
