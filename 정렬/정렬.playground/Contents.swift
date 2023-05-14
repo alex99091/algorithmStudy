@@ -42,14 +42,59 @@ func insertSort(_ dataList:[Int]) -> [Int] {
     var result = dataList
     
     for i in 0..<result.count {
-        var min = result[i]
+        var current = result[i]
         for j in 0...i {
-            
+            if result[j] > current {
+                var temp = result[i]
+                result[i] = result[j]
+                result[j] = temp
+            }
         }
-        print("min: \(min), result[i]: \(result[i]), list: \(result)")
     }
     
     return result
 }
 
 insertSort(dataList)
+
+// 위의 함수를 아래와 같이 리팩토링
+func insertionSort(_ dataList: [Int]) -> [Int] {
+    var result = dataList
+    
+    for i in 1..<result.count {
+        var j = i
+        while j > 0 && result[j] < result[j-1] {
+            result.swapAt(j, j-1)
+            j -= 1
+        }
+    }
+    
+    return result
+}
+insertionSort(dataList)
+
+/* 삽입 정렬의 시간 복잡도
+ 삽입 정렬의 시간 복잡도는 O(N^2)이며, 선택정렬과 마찬가지로 반복문이 두번 중첩되어 사용됩니다.
+ 삽입 정렬은 현재 리스트의 데이터가 거의 정렬되어 있는 상태라면 매우 빠르게 동작합니다.
+ - 최선의 경우 O(N)의 시간 복잡도를 가집니다. */
+
+// 퀵 정렬
+/* 기준 데이터를 설정하고 그 기준보다 큰 데이터와 작은 데이터의 위치를 바꾸는 방법입니다.
+ 일반적인 상황에서 가장 많이 사용되는 알고리즘 중 하나입니다.
+ 병합 정렬과 더불어 대부분의 프로그래밍 언어의 정렬 라이브러리의 근간이 되는 알고리즘 입니다.
+ 가장 기본적인 퀵 정렬은 첫번째 데이터의 기준 데이터(Pivot)을 설정합니다.*/
+
+func quickSort(_ dataList: [Int]) -> [Int] {
+    guard dataList.count > 1 else { return dataList }
+    
+    let pivot = dataList[dataList.count/2] // pivot element 선정
+    let left = dataList.filter { $0 < pivot } // pivot보다 작은 원소들
+    let equal = dataList.filter { $0 == pivot } // pivot과 같은 원소들
+    let right = dataList.filter { $0 > pivot } // pivot보다 큰 원소들
+    
+    return quickSort(left) + equal + quickSort(right) // 재귀 호출
+}
+
+quickSort(dataList)
+
+// 퀵 정렬의 시간 복잡도는 평균 O(NlogN)의 복잡도를 지닙니다.
