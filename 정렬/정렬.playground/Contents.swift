@@ -98,3 +98,59 @@ func quickSort(_ dataList: [Int]) -> [Int] {
 quickSort(dataList)
 
 // 퀵 정렬의 시간 복잡도는 평균 O(NlogN)의 복잡도를 지닙니다.
+
+// 계수 정렬
+/*
+ 특정한 조건이 부합할 때만 사용할 수 있지만 매우 빠르게 동작하는 알고리즘 입니다.
+ 계수 정렬은 데이터의 크기 범위가 제한되어 정수 형태로 표현할 수 있을 때 사용 가능합니다.
+ 데이터의 개수가 N, 데이터(양수) 중 최댓값 K일 때 최악의 경우에도 수행 시간 O(N+K)를 보장합니다.
+ */
+
+// 계수 정렬의 시간복잡도는 모두 O(N+K)입니다.
+// 동일한 값의 데이터를 가지는 갯수가 많을 수록 효율적입니다.
+let dataList2 = [7, 5, 9, 0, 3, 1, 6, 2, 9, 1, 4, 8, 0, 5, 2]
+
+func factorSort(_ dataList2: [Int]) -> [Int] {
+    var checkDict: [Int: Int] = [:]
+    
+    dataList2.forEach { data in
+        if let count = checkDict[data] {
+            checkDict[data] = count + 1
+        } else {
+            checkDict[data] = 1
+        }
+    }
+    var result: [Int] = []
+    
+    for i in 0...9 {
+        if let count = checkDict[i] {
+            for _ in 1...count {
+                result.append(i)
+            }
+        }
+    }
+    
+    return result
+}
+
+factorSort(dataList2)
+
+func countingSort(_ arr: [Int]) -> [Int] {
+    var countingArray = Array(repeating: 0, count: arr.max()! + 1)
+    
+    for element in arr {
+        countingArray[element] += 1
+    }
+    
+    var result = [Int]()
+    
+    for (index, count) in countingArray.enumerated() {
+        guard count > 0 else { continue }
+        let elements = Array(repeating: index, count: count)
+        result.append(contentsOf: elements)
+    }
+    
+    return result
+}
+
+countingSort(dataList2)
