@@ -34,3 +34,45 @@ func binarySearch(_ array: [Int], _ target: Int) -> Int {
 }
 
 binarySearch(sortedArray, 4)
+
+/* 파라메트릭 서치(Parametric Search)
+ 파라메트릭 서치란 최적화 문제를 결정 문제('예' 혹은 '아니오')로 바꾸어 해결하는 기법입니다.
+ - 예시: 특정한 조건을 만족하는 가장 알맞은 값을 빠르게 찾는 최적화 문제
+ 일반적으로 코딩 테스트에서 파라메트릭 서치 문제는 이진 탐색을 이용하여 해결할 수 있습니다.*/
+
+// 문제: 떡볶이 떡 만들기
+/* 절단기에 높이(H)를 지정하면 줄지어진 떡을 한 번에 절단합니다. 높이가 H보다 긴 떡은 H 위의 부분이 잘릴 것이고 낮은 떡은 잘리지 않습니다.
+ 예를 들어 높이가 19,14,10,17cm인 떡이 나란히 있고 절단기 높이를 15cm로 지정하면 자른뒤 떡의 높이는
+ 15,14,10,15가 될것입니다. 잘린 떡의 길이는 차례대로 4,0,0,2cm 입니다. 손님은 6cm 만큼의 길이를 가져 갑니다.
+ 손님이 왔을 때 요청한 총 길이가 M일때, 적어도 M만큼의 떡을 얻기 위해 설정할 수 있는 높이의 최댓값을 구하시오.*/
+
+func findOptimum(_ arr: [Int], _ m: Int) -> Int {
+    var start = 0
+    guard var end = arr.max() else { return -1 }
+    
+    var result = 0
+    while start <= end {
+        let middle = (start + end) / 2
+        
+        // 현재 높이로 잘랐을 때 손님이 가져가는 길이 계산
+        var totalLength = 0
+        for item in arr {
+            if item > middle {
+                totalLength += item - middle
+            }
+        }
+        
+        // 손님이 가져가는 길이가 m보다 크거나 같으면 높이를 더 높일 수 있음
+        if totalLength >= m {
+            result = middle
+            start = middle + 1
+        }
+        // 손님이 가져가는 길이가 m보다 작으면 높이를 더 낮춰야 함
+        else {
+            end = middle - 1
+        }
+    }
+    return result
+}
+
+findOptimum([19,14,10,17], 6)
