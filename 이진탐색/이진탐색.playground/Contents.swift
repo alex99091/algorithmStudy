@@ -76,3 +76,56 @@ func findOptimum(_ arr: [Int], _ m: Int) -> Int {
 }
 
 findOptimum([19,14,10,17], 6)
+
+// 문제: 정렬된 배열에서 특정 수의 개수 구하기
+/*
+ N개의 원소를 포함하고 있는 수열이 오름차순으로 정렬되어 있습니다. 이때 이 수열에서 x가 등장하는 횟수를
+ 계산하세요. 예를 들어, [1,1,2,2,2,2,3]이 있을때, x = 2라면, 현재 수열에서 값이 2인 원소가
+ 4개이므로 4를 출력합니다.
+ 단, 이 문제는 시간 복잡도 O(logN)이므로 알고리즘을 설계하지 않으면 시간 초과 판정을 받습니다. */
+
+
+// 시간복잡도가 O(logN)으로 동작하는 알고리즘이므로, 선형 탐색(Linear Search)로는 접근할 수 없습니다.
+// 하지만 데이터가 정렬되어 있기 때문에 이진 탐색을 수행할 수 있습니다.
+// 특정 값이 등장하는 첫 번째 인덱스와 마지막 인덱스를 찾아서 문제를 해결할 수 있습니다.
+func countSpecificNumber(_ array: [Int], num: Int) -> Int {
+    let startIndex = array.firstIndex(of: num) ?? -1
+    let endIndex = array.lastIndex(of: num) ?? -1
+    
+    
+    return startIndex == -1 ? -1 : endIndex - startIndex + 1
+}
+
+countSpecificNumber([1,1,2,2,2,2,3], num: 2)
+
+// 이진 탐색 함수
+func binarySearch(array: [Int], num: Int, isFirstIndex: Bool) -> Int {
+    var start = 0
+    var end = array.count - 1
+    var result = -1
+    
+    while start <= end {
+        let middle = (start + end) / 2
+        
+        if array[middle] > num {
+            end = middle - 1
+        } else if array[middle] < num {
+            start = middle + 1
+        } else {
+            result = middle
+            
+            if isFirstIndex {
+                // 현재 위치의 왼쪽 부분에도 동일한 값이 존재하는지 확인합니다.
+                end = middle - 1
+            } else {
+                // 현재 위치의 오른쪽 부분에도 동일한 값이 존재하는지 확인합니다.
+                start = middle + 1
+            }
+        }
+    }
+    
+    return result
+}
+
+
+binarySearch([1,1,2,2,2,2,3], 2)
